@@ -1,0 +1,183 @@
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\NotificationWebJob.dll.config
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\NotificationWebJob.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\NotificationWebJob.pdb
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Antlr3.Runtime.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\EntityFramework.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\EntityFramework.SqlServer.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.Google.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Web.Infrastructure.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Newtonsoft.Json.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Owin.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Net.Http.Formatting.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.Helpers.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.Http.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.Http.WebHost.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.Mvc.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.Optimization.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.Razor.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.WebPages.Deployment.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.WebPages.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.WebPages.Razor.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\WebGrease.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.Helpers.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.Mvc.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.Optimization.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.Razor.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.WebPages.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.WebPages.Deployment.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.WebPages.Razor.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Antlr3.Runtime.pdb
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Newtonsoft.Json.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Net.Http.Formatting.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.Http.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\System.Web.Http.WebHost.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\EntityFramework.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\EntityFramework.SqlServer.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.Google.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\obj\Debug\NotificationWebJob.csprojResolveAssemblyReference.cache
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\obj\Debug\NotificationWebJob.dll
+c:\users\priyanka\documents\visual studio 2013\Projects\NotificationWebJob\NotificationWebJob\obj\Debug\NotificationWebJob.pdb
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\NotificationWebJob.dll.config
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\NotificationWebJob.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\NotificationWebJob.pdb
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Antlr3.Runtime.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\EntityFramework.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\EntityFramework.SqlServer.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.AspNet.Identity.Core.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.Cookies.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.Facebook.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.Google.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.OAuth.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.Twitter.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Web.Infrastructure.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Newtonsoft.Json.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Owin.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Net.Http.Formatting.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.Helpers.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.Http.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.Http.WebHost.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.Mvc.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.Optimization.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.Razor.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.WebPages.Deployment.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.WebPages.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.WebPages.Razor.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\WebGrease.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Newtonsoft.Json.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.Helpers.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.Mvc.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.Optimization.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.Razor.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.WebPages.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.WebPages.Deployment.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.WebPages.Razor.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Antlr3.Runtime.pdb
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Net.Http.Formatting.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.Http.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Web.Http.WebHost.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\EntityFramework.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\EntityFramework.SqlServer.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.AspNet.Identity.Core.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.Facebook.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.Cookies.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.OAuth.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.Google.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.Twitter.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\obj\Debug\NotificationWebJob.csprojResolveAssemblyReference.cache
+C:\github\event\NotificationWebJob\NotificationWebJob\obj\Debug\NotificationWebJob.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\obj\Debug\NotificationWebJob.pdb
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Mandrill.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Mandrill.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Data.Edm.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Data.OData.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Data.Services.Client.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.WindowsAzure.Storage.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Spatial.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Data.Edm.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Data.OData.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.Data.Services.Client.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.WindowsAzure.Storage.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\System.Spatial.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\de\Microsoft.Data.Edm.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\es\Microsoft.Data.Edm.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\it\Microsoft.Data.Edm.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\de\Microsoft.Data.OData.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\es\Microsoft.Data.OData.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\fr\Microsoft.Data.OData.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\it\Microsoft.Data.OData.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\ja\Microsoft.Data.OData.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\ko\Microsoft.Data.OData.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\ru\Microsoft.Data.OData.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\de\System.Spatial.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\es\System.Spatial.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\fr\System.Spatial.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\it\System.Spatial.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\ja\System.Spatial.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\ko\System.Spatial.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\ru\System.Spatial.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\zh-Hans\System.Spatial.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\zh-Hant\System.Spatial.resources.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\obj\Debug\NotificationWebJob.Migrations.InitialCreate.resources
+C:\github\event\NotificationWebJob\NotificationWebJob\obj\Debug\NotificationWebJob.csproj.GenerateResource.Cache
+C:\github\event\NotificationWebJob\NotificationWebJob\obj\Debug\NotificationWebJob.Migrations.AddnotificationSignalREntity.resources
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\github\event\NotificationWebJob\NotificationWebJob\obj\Debug\NotificationWebJob.Migrations.addedNotificationTable.resources

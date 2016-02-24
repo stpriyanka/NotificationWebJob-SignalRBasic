@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationWebJob", "NotificationWebJob\NotificationWebJob.csproj", "{C50BF01D-A16E-421D-A974-2A24D13DD4E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ActivateNotificationWebJob", "ActivateNotificationWebJob\ActivateNotificationWebJob.csproj", "{0D5C3A85-439D-4E3E-82CA-105BEB816E26}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C50BF01D-A16E-421D-A974-2A24D13DD4E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C50BF01D-A16E-421D-A974-2A24D13DD4E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C50BF01D-A16E-421D-A974-2A24D13DD4E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C50BF01D-A16E-421D-A974-2A24D13DD4E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D5C3A85-439D-4E3E-82CA-105BEB816E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5C3A85-439D-4E3E-82CA-105BEB816E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5C3A85-439D-4E3E-82CA-105BEB816E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5C3A85-439D-4E3E-82CA-105BEB816E26}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

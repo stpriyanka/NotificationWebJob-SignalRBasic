@@ -1,0 +1,48 @@
+﻿@{
+	ViewBag.Title = "Home Page";
+}
+
+@section scripts
+{
+	<link href="~/Content/toastr.min.css" rel="stylesheet" />
+
+	<script src="~/Scripts/toastr.min.js"></script>
+	<script src="/Scripts/jquery.signalR-2.2.0.min.js" type="text/javascript"></script>
+	<script src="~/signalr/hubs" type="text/javascript"></script>
+
+	<script type="text/javascript">
+		$(function () {
+			var hubProxy = $.connection.signalRHub;
+
+			//Create a function that the hub can call to broadcast messages.
+
+			hubProxy.client.send = function (message) {
+				//debugger;
+				$('#messages').append('<li>' + message + '</li>');
+			};
+
+			$.connection.hub.logging = true;
+
+			$.connection.hub.qs = { 'orgID': '4356' }
+
+			//stop a connection when user status changes
+			$.connection.hub.stop();
+			$.connection.hub.start().done(function () {
+
+				//Call the sendMessage on the hub
+				hubProxy.server.sendMessage($('#messages').val());
+				toastr.success($('#messages'));
+
+			});
+		});
+	</script>
+}
+
+
+
+<div class="jumbotron">
+
+	<ul id="messages" style="text-decoration: none;font-weight: bold;font-family: sans-serif"></ul>
+
+</div>
+
