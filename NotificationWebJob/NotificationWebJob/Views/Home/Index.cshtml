@@ -29,6 +29,8 @@
 			$.connection.hub.stop();
 			$.connection.hub.start().done(function () {
 
+				hubProxy.state.ID = "111";
+
 				//Call the sendMessage on the hub
 				hubProxy.server.sendMessage($('#messages').val());
 				toastr.success($('#messages'));

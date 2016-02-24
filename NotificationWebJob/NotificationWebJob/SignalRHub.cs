@@ -25,7 +25,9 @@ namespace NotificationWebJob
 		public async Task SendMessage(string message)
 		{
 			//const int orgid = 4356;
-
+			
+			//Receive data from client state
+			string myId = Clients.Caller.ID;
 
 			//var version = Context.QueryString["orgID"];
 			//if (version != orgid.ToString())
