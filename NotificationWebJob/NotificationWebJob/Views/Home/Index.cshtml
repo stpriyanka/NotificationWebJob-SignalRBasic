@@ -2,6 +2,7 @@
 	ViewBag.Title = "Home Page";
 }
 
+
 @section scripts
 {
 	<link href="~/Content/toastr.min.css" rel="stylesheet" />
@@ -29,7 +30,7 @@
 			$.connection.hub.stop();
 			$.connection.hub.start().done(function () {
 
-				hubProxy.state.ID = "111";
+				//hubProxy.state.ID = "111";
 
 				//Call the sendMessage on the hub
 				hubProxy.server.sendMessage($('#messages').val());
@@ -38,6 +39,7 @@
 			});
 		});
 	</script>
+
 }
 
 
@@ -48,3 +50,6 @@
 
 </div>
 
+<div class="jumbotron">
+	<p><a href="@Url.Action("CreateJob")" class="btn btn-primary btn-lg">Start Job &raquo;</a></p>
+</div>

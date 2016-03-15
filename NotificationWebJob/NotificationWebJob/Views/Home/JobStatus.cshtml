@@ -1,0 +1,35 @@
+﻿@model NotificationWebJob.Models.JobStatusViewModel
+
+<h2>@ViewBag.Title.</h2>
+
+@section scripts {
+	@Scripts.Render("~/bundles/jquery")
+	<script src="~/Scripts/jquery.signalR-2.2.0.min.js"></script>
+	<script src="~/signalr/hubs"></script>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+			var jobId = "@Model.JobId";
+		;
+			// Reference the auto-generated proxy for the hub.
+			var passDataToWebJobHub = $.connection.passDataToWebJobHub;
+
+			//// Create a function that the hub can call back to display progress
+
+				//var config = { 'orgid': '4356' }
+			
+			passDataToWebJobHub.client.updateProgress = function (progress) {
+				$("#progress-span").text(progress);
+
+				console.log("Progress: " + progress);
+			};
+
+			$.connection.hub.logging = true;
+			$.connection.hub.qs = "jobid=" + jobId;
+			$.connection.hub.qs = { 'orgid': '4356' }
+
+			$.connection.hub.start();
+		});
+	</script>
+}
+<p>Current progress: <span id="progress-span">0</span></p>

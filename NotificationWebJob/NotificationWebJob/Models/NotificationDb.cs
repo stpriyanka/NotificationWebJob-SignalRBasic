@@ -8,6 +8,7 @@ namespace NotificationWebJob.Models
 		public DbSet<LogEvents> LogEventses { get; set; }
 		public DbSet<LogEventSubscriptions> LogEventSubscriptionses { get; set; }
 		public DbSet<NotificationSignalR> NotificationSignalRs { get; set; }
+		//public DbSet<JobStatusViewModel> JobStatusViewModels { get; set; }
 
 	}
 }

@@ -3,12 +3,14 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Data.Entity;
 using System.Linq;
+using System.Net;
 using System.Threading.Tasks;
 using System.Web;
 using System.Web.Mvc;
 using Mandrill;
 using Mandrill.Models;
 using Mandrill.Requests.Messages;
+using Microsoft.AspNet.SignalR;
 using Microsoft.WindowsAzure.Storage;
 using Microsoft.WindowsAzure.Storage.Queue;
 using Newtonsoft.Json;
@@ -46,12 +48,96 @@ namespace NotificationWebJob.Controllers
 			return View();
 		}
 
-		public ActionResult Contact()
-		{
-			ViewBag.Message = "Your contact page.";
+		//public Task<ActionResult> Contact()
+		//{
 
-			return View();
+		//	//var orgID = "4356";
+		//	var jobId = Guid.NewGuid();
+
+		
+		//	var storageAccount = CloudStorageAccount.Parse(ConfigurationManager.ConnectionStrings["AzureWebJobsStorage"].ConnectionString);
+		//	var cloudQueueClient = storageAccount.CreateCloudQueueClient();
+
+		//	var queue = cloudQueueClient.GetQueueReference("jobqueue");
+		//	queue.CreateIfNotExists();
+
+		//	CloudQueueMessage message = new CloudQueueMessage(JsonConvert.SerializeObject(jobId));
+		//	 queue.AddMessageAsync(message);
+
+		//	ViewBag.Message = "Your contact page.";
+
+		//	return RedirectToAction("Contact", new { jobId });
+
+
+		//	//return View("Contact");
+		//}
+
+
+
+
+
+		List<object>x =new List<object>(); 
+
+		public async Task<ActionResult> CreateJob()
+		{
+			const string orgid = "4356";
+		
+			var jobId = Guid.NewGuid();
+			
+			var viewModel = new JobStatusViewModel
+			{
+				JobId = jobId,
+				OrgIdFromClient = orgid
+			};
+
+			x.Add(viewModel);
+			
+
+
+
+			var storageAccount = CloudStorageAccount.Parse(ConfigurationManager.ConnectionStrings["AzureWebJobsStorage"].ConnectionString);
+			var cloudQueueClient = storageAccount.CreateCloudQueueClient();
+
+			var queue = cloudQueueClient.GetQueueReference("jobqueue");
+			queue.CreateIfNotExists();
+
+			CloudQueueMessage message = new CloudQueueMessage(JsonConvert.SerializeObject(x));
+			await queue.AddMessageAsync(message);
+
+			return RedirectToAction("JobStatus", new { jobId });
 		}
+	
+
+		public ActionResult JobStatus(Guid jobId)
+		{
+			var viewModel = new JobStatusViewModel
+			{
+				JobId = jobId
+				
+			};
+
+			return View(viewModel);
+		}
+
+
+		public ActionResult ProgressNotification(Guid jobId, string progress)
+		{
+			var connections = PassDataToWebJobHub.GetUserConnections(jobId);
+
+			if (connections != null)
+			{
+				foreach (var connection in connections)
+				{
+					// Notify the client to refresh the list of connections
+					var hubContext = GlobalHost.ConnectionManager.GetHubContext<PassDataToWebJobHub>();
+					hubContext.Clients.Clients(new[] { connection }).updateProgress(progress);
+				}
+			}
+
+			return new HttpStatusCodeResult(HttpStatusCode.OK);
+		}
+
+
 
 
 		public async Task<ActionResult> LogEventSubscriptions()
@@ -62,7 +148,7 @@ namespace NotificationWebJob.Controllers
 				Id = Guid.NewGuid(),
 				ObjectTypeOfEvent = Enum.ObjectTypeOfEvent.MonthlyMeeting,
 				EventType = Enum.EventType.Delete,
-				UserWhoSubscribed = "stpriyanka2011@gmail.com"
+				UserWhoSubscribed = "priyanka_tasnia@yahoo.com"
 			};
 
 			dbContext.LogEventSubscriptionses.Add(logEventSub);
@@ -78,7 +164,7 @@ namespace NotificationWebJob.Controllers
 			{
 				EventType = Enum.EventType.Delete,
 				Id = Guid.NewGuid(),
-				UserWhoCreatesEvent = "stpriyanka2011@gmail.com",
+				UserWhoCreatesEvent = "priyanka_tasnia@yahoo.com",
 				ObjectTypeOfEvent = Enum.ObjectTypeOfEvent.MonthlyMeeting
 			};
 			dbContext.LogEventses.Add(logEvent);
@@ -138,4 +224,5 @@ namespace NotificationWebJob.Controllers
 
 
 	}
+
 }

@@ -210,8 +210,10 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="ConnectionMapping.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Models\JobStatusViewModel.cs" />
     <Compile Include="Migrations\201602121632065_InitialCreate.cs" />
     <Compile Include="Migrations\201602121632065_InitialCreate.Designer.cs">
       <DependentUpon>201602121632065_InitialCreate.cs</DependentUpon>
@@ -239,6 +241,7 @@
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\NotificationDb.cs" />
     <Compile Include="Models\NotificationSignalR.cs" />
+    <Compile Include="PassDataToWebJobHub.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SignalRHub.cs" />
     <Compile Include="Startup.cs" />
@@ -312,6 +315,7 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Home\JobStatus.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using NotificationWebJob.Models;
+using Website;
 
 
 namespace NotificationWebJob
@@ -19,39 +20,46 @@ namespace NotificationWebJob
 	{
 		readonly NotificationDb _myDbContext = new NotificationDb();
 
+		private readonly static ConnectionMapping<Guid> Connections = new ConnectionMapping<Guid>();
+
+
 		private static int _connectionCounter = 0;
 
 
 		public async Task SendMessage(string message)
 		{
-			//const int orgid = 4356;
-			
-			//Receive data from client state
-			string myId = Clients.Caller.ID;
+			const int orgid = 4356;
+
+			////receive data from client state
+			//string myid = clients.caller.id;
+
+			var version = Context.QueryString["orgid"];
+			if (version != orgid.ToString())
+			{
+				Clients.Caller.send(version);
+			}
+
+			var name = _myDbContext.LogEventSubscriptionses.FirstOrDefault
+						 (r => r.UserWhoSubscribed == Context.User.Identity.Name);
+
+
+			var obj = new LogEvents()
+			{
+				Id = name.Id,
+				//userwhocreatesevent = name.userwhosubscribed,
+				//eventtype = name.eventtype,
+				//objecttypeofevent = name.objecttypeofevent
+
+			};
+
+			var json = new JavaScriptSerializer().Serialize(obj);
+			Clients.Caller.send(json);
 
 			//var version = Context.QueryString["orgID"];
-			//if (version != orgid.ToString())
-			//{
-			//	Clients.Caller.send(version);
-			//}
-
-			//var name = _myDbContext.LogEventSubscriptionses.FirstOrDefault
-			//			 (r => r.UserWhoSubscribed == Context.User.Identity.Name);
+			//Guid orgId = GetOrgId();
 
 
-			//var obj = new LogEvents()
-			//{
-			//	Id = name.Id,
-			//	UserWhoCreatesEvent = name.UserWhoSubscribed,
-			//	EventType = name.EventType,
-			//	ObjectTypeOfEvent = name.ObjectTypeOfEvent
-
-			//};
-
-			//var json = new JavaScriptSerializer().Serialize(obj);
-			//Clients.All.send(json);
-
-			Clients.Caller.send(message);
+			Clients.All.send(version);
 		}
 
 
@@ -60,10 +68,9 @@ namespace NotificationWebJob
 		{
 			_connectionCounter++;
 
-			Clients.All.send(_connectionCounter);
-			
-			//Clients.All.send("Current active number of connection " + _connectionCounter);
+			//Clients.All.send(_connectionCounter);
 
+			Clients.All.send("Current active number of connection " + _connectionCounter);
 
 			return base.OnConnected();
 		}
@@ -74,8 +81,10 @@ namespace NotificationWebJob
 
 			_connectionCounter--;
 
+			
 			return base.OnDisconnected(stopCalled);
 		}
-	}
 
+	
+	}
 }

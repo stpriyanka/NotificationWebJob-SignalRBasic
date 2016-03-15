@@ -3,6 +3,9 @@
   "WebJobs": [
     {
       "filePath": "../ActivateNotificationWebJob/ActivateNotificationWebJob.csproj"
+    },
+    {
+      "filePath": "../SignalRPassDataWebJob/SignalRPassDataWebJob.csproj"
     }
   ]
 }
